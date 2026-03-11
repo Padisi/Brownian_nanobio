@@ -1,0 +1,10 @@
+name: brownian
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pytest
+  - scipy
+  - matplotlib

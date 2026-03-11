@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brownian"
+version = "0.0.0"
+description = ""
+authors = [
+    { name = "Pablo Diez Silva", email = "pablodiezsilva@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
