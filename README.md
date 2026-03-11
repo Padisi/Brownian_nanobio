@@ -9,26 +9,27 @@ Minimal example of python project for brownian solver.
 ---
 
 ## Clone the Repository
-Write on the terminal where you want to have the folder with the project:
+Write in the terminal where you want to place the project folder:
 ```bash
 git clone https://github.com/padisi/Brownian_nanobio.git
 cd Brownian_nanobio
 ```
 ## Instalation
-First create the conda environment and activate it. This is created thanks to the environment.yml file, that contains all the libraries we will use.
-You can add news there if you need them, make sure you create the environment again after add a new one.
+First, create the conda environment and activate it. The environment is created using the environment.yml file, which contains all the libraries we will use.
+
+You can add new ones there if needed. Make sure to recreate the environment after adding a new dependency.
 ```bash
 conda env create
 conda activate brownian
 ```
-Then install the functions we have develop with pip, to make this the pyproject.toml file is needed.
+Then install the functions we have developed with pip. For this, the pyproject.toml file is required.
 ```bash
 pip install .
 ```
 
 ## Testing
-To ensure you have done everything well write in the terminal:
+To ensure everything is installed correctly, run the following command in the terminal:
 ```bash
 pytest
 ```
-To pass the tests.
+Some tests are stochastic, so they might fail occasionally on the first run. If this happens, simply rerun pytest.
