@@ -4,7 +4,7 @@ Minimal example of python project for brownian solver.
 ## Requirements
 
 - Git: https://github.com/git-guides/install-git
-- Conda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+- Conda: https://github.com/conda-forge/miniforge
 
 ---
 
